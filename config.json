@@ -1,0 +1,169 @@
+{
+  "personal": {
+    "name": "Shubham Pramod Zanzad",
+    "title": "Associate Software Engineer",
+    "phone": "+91-7387335258",
+    "email": "zanzadshubham25@gmail.com",
+    "location": "Bengaluru, India",
+    "github": "https://github.com/Shubhamzanzad",
+    "linkedin": "https://www.linkedin.com/in/shubham-zanzad",
+    "bio": "Proactive Software Development Engineer with experience developing backend systems for the Josh app's recommendation team and LogEasy backend using Java, Python, and Golang. Experienced in designing and maintaining high-performance backend services, optimizing data pipelines, and ensuring low-latency APIs for large-scale user engagement.",
+    "resumeURL": "https://drive.google.com/file/d/1kjAFOzzzfoRjpNAKpEoxtVuTMkbuOhxC/view?usp=sharing"
+  },
+  "education": [
+    {
+      "degree": "M.Tech. (CSE)",
+      "institution": "International Institute of Information Technology, Bangalore (IIIT B)",
+      "duration": "2023 - 2025",
+      "location": "Bengaluru, Karnataka",
+      "cgpa": "7.75"
+    },
+    {
+      "degree": "B.E. (IT)",
+      "institution": "Sinhgad Academy of Engineering",
+      "duration": "2018 - 2022",
+      "location": "Pune, Maharashtra",
+      "cgpa": "8.87"
+    }
+  ],
+  "experience": [
+    {
+      "position": "Associate Software Engineer",
+      "company": "Verse Innovation",
+      "duration": "July 2025 – Present",
+      "location": "Bengaluru, India",
+      "responsibilities": [
+        "Took full ownership of backend REST APIs for LogEasy, a scalable logging and observability platform, using Python (FastAPI), SQL, and Apache Kafka, delivering high-performance, object-oriented solutions for seamless and fault-tolerant operations.",
+        "Implemented an in-memory caching layer for APIs, improving latency by 35%, introduced GitLab CI pipelines to eliminate unnecessary VMs, reducing deployment costs, and simplifying the deployment process.",
+        "Architected a high-throughput log ingestion pipeline processing over 350 GB/day using Apache Kafka for real-time processing, integrating an intelligent parsing system with Drain3 and Google Vertex AI to efficiently handle unstructured log formats.",
+        "Implemented end-to-end authentication and authorization for a distributed web application using JWT-based tokens and React.js, designing dynamic groups and permissions to enhance security and scalability."
+      ]
+    },
+    {
+      "position": "Intern",
+      "company": "Verse Innovation",
+      "duration": "Jan 2025 – June 2025",
+      "location": "Bengaluru, India",
+      "responsibilities": [
+        "Developed a Natural Language to SQL conversion system using Large Language Models (LLMs) (Claude 3.5 Sonnet, Gemini 2.0 Flash), creating query systems with automated database profiling and schema generation to enhance customer experience.",
+        "Built a Go-based code evaluation service integrated with SonarQube, analyzing 100% of the codebase for vulnerabilities on every merge request, reducing production bugs by 25% and incorporating automated rollbacks triggered by Grafana alerts.",
+        "Developed a cloud-based monitoring service using Spring Boot to track hourly creation of SST files (trending content and creator metadata) in the JOSH app and trigger alerts in Google Chat.",
+        "Deployed Airflow DAGs in Google Cloud Composer to run PySpark jobs, comparing training and prediction data of JOSH recommendations in real-time, with daily logging and chat-based discrepancy alerts to ensure system reliability."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "MediSync - Healthcare Portal",
+      "url": "https://github.com/Shubhamzanzad/HAD",
+      "technologies": [
+        "Spring Boot",
+        "React.js",
+        "MySQL",
+        "RabbitMQ",
+        "JWT",
+        "Server-Sent Events"
+      ],
+      "description": [
+        "Developed a healthcare portal for health record transfers using ABDM APIs and FHIR standards in a microservices architecture, used RabbitMQ for inter-service communication.",
+        "Designed Figma mockups, built backend APIs with Spring Boot, frontend with React.js, and contributed to database schema design.",
+        "Enabled real-time updates with Server-Sent Events, inter-service communication with RabbitMQ, and secure access using JWT-based authorization and authentication and role-based access control."
+      ]
+    },
+    {
+      "name": "LeagueFit - DevOps Project",
+      "url": "https://github.com/Shubhamzanzad/SS-Mini-Project",
+      "technologies": [
+        "Jenkins",
+        "Ansible",
+        "Docker Compose",
+        "ELK Stack",
+        "FastAPI",
+        "Streamlit"
+      ],
+      "description": [
+        "Developed a web application recommending top five football clubs using cosine similarity.",
+        "Created Jenkins CI/CD pipeline, configured Ansible playbook, managed Docker containers with Docker Compose, and set up ELK Stack for monitoring and logging.",
+        "Developed using FastAPI and Streamlit, containerizing it into separate backend, frontend, and dataset containers."
+      ]
+    },
+    {
+      "name": "CLI-Based Course Registration System",
+      "url": "https://github.com/Shubhamzanzad/LeagueFit",
+      "technologies": [
+        "C",
+        "Socket Programming",
+        "File Locking",
+        "Process Synchronization"
+      ],
+      "description": [
+        "Developed a multithreaded course registration system with concurrency control via file-locking mechanisms, handling concurrent socket-based client requests using process synchronization techniques."
+      ]
+    }
+  ],
+  "achievements": [
+    "Secured All India Rank of 1517 in GATE CSE 2023",
+    "Solved over 700+ coding problems across various platforms: LeetCode, Codeforces, CodeChef, Coding Ninjas, and GeeksForGeeks"
+  ],
+  "skills": {
+    "languages": ["Java", "Python", "C", "C++", "Golang", "JavaScript"],
+    "frameworks": [
+      "Spring Boot",
+      "FastAPI",
+      "React.js",
+      "Kafka",
+      "Vertex AI",
+      "Redis",
+      "Git",
+      "GitHub",
+      "GitLab"
+    ],
+    "databases": ["MySQL", "NoSQL", "PostgreSQL"],
+    "tools": [
+      "Jenkins",
+      "Docker",
+      "Kubernetes",
+      "Ansible",
+      "Argo CD",
+      "SonarQube",
+      "Google Cloud Platform(GCP)"
+    ]
+  },
+  "codingProfiles": [
+    {
+      "platform": "LeetCode",
+      "username": "Zanzad_shubham",
+      "url": "https://leetcode.com/Zanzad_shubham",
+      "problemsSolved": 378,
+      "rating": null
+    },
+    {
+      "platform": "CodeForces",
+      "username": "Zanzad_shubham",
+      "url": "https://codeforces.com/profile/Zanzad_shubham",
+      "problemsSolved": 91,
+      "rating": "Pupil - 1426"
+    },
+    {
+      "platform": "CodeChef",
+      "username": "zanzadshubham",
+      "url": "https://www.codechef.com/users/zanzadshubham",
+      "problemsSolved": 29,
+      "rating": "1 star - 1340"
+    },
+    {
+      "platform": "Coding Ninjas",
+      "username": "zanzadShubham",
+      "url": "https://www.naukri.com/code360/profile/c3a07f5c-afc2-46cf-9d45-ad13f2c7a62d",
+      "problemsSolved": 210,
+      "rating": null
+    },
+    {
+      "platform": "GeeksforGeeks",
+      "username": "zanzadshubham25",
+      "url": "https://www.geeksforgeeks.org/user/zanzadshubham25/",
+      "problemsSolved": 155,
+      "rating": null
+    }
+  ]
+}
