@@ -13,7 +13,8 @@ import {
   Terminal,
 } from "lucide-react";
 
-const CONFIG_URL = "/api/Shubhamzanzad/config/main/config.json";
+const CONFIG_URL =
+  "https://raw.githubusercontent.com/Shubhamzanzad/portfolio/main/config.json";
 
 const sampleConfig = {
   personal: {
@@ -277,7 +278,7 @@ const Portfolio = () => {
           }
         }
       } catch (error) {
-        console.error("Error in reading config.json - ", err);
+        console.error("Error in reading config.json - ", error);
         setConfig(sampleConfig);
       } finally {
         setLoading(false);
