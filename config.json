@@ -1,14 +1,14 @@
 {
   "personal": {
     "name": "Shubham Pramod Zanzad",
-    "title": "Associate Software Engineer",
+    "title": "Software Engineer",
     "phone": "+91-7387335258",
-    "email": "zanzadshubham25@gmail.com",
+    "email": "shubhamzanzad25@gmail.com",
     "location": "Bengaluru, India",
     "github": "https://github.com/Shubhamzanzad",
     "linkedin": "https://www.linkedin.com/in/shubham-zanzad",
-    "bio": "Proactive Software Development Engineer with experience developing backend systems for the Josh app's recommendation team and LogEasy backend using Java, Python, and Golang. Experienced in designing and maintaining high-performance backend services, optimizing data pipelines, and ensuring low-latency APIs for large-scale user engagement.",
-    "resumeURL": "https://drive.google.com/file/d/1bA49AD50MwN_58RASvCUB1bcxL8Wk6Hm/view?usp=sharing"
+    "bio": "I am a Software Engineer specializing in backend and full-stack development, with experience building distributed, event-driven systems. Currently at Verse Innovation, I work on scalable log ingestion pipelines, API performance optimization, and GenAI-powered workflows like Natural Language to SQL systems used in production. I enjoy owning features end-to-end — from API design and data pipelines to debugging and performance tuning in production. With a strong foundation in data structures and systems, I’m passionate about building reliable backend platforms that scale and solve real business problems.",
+    "resumeURL": "https://drive.google.com/file/d/1xnXfoNijhTlNbhZtAxTc1L6b56JIICmZ/view?usp=sharing"
   },
   "education": [
     {
@@ -33,10 +33,10 @@
       "duration": "July 2025 – Present",
       "location": "Bengaluru, India",
       "responsibilities": [
-        "Took full ownership of backend REST APIs for LogEasy, a scalable logging and observability platform, using Python (FastAPI), SQL, and Apache Kafka, delivering high-performance, object-oriented solutions for seamless and fault-tolerant operations.",
-        "Implemented an in-memory caching layer for APIs, improving latency by 35%, introduced GitLab CI pipelines to eliminate unnecessary VMs, reducing deployment costs, and simplifying the deployment process.",
-        "Architected a high-throughput log ingestion pipeline processing over 350 GB/day using Apache Kafka for real-time processing, integrating an intelligent parsing system with Drain3 and Google Vertex AI to efficiently handle unstructured log formats.",
-        "Implemented end-to-end authentication and authorization for a distributed web application using JWT-based tokens and React.js, designing dynamic groups and permissions to enhance security and scalability."
+        "Built and maintained distributed full-stack systems using FastAPI, Kafka, MySQL, React, Tailwind, and Fuse, delivering end-to-end features, fixing production bugs, and translating user requirements into scalable services.",
+        "Reduced API latency by ~30–35% by refactoring slow code paths, introducing in-memory caching, and optimizing SQL schemas and queries, improving throughput for high-volume log queries.",
+        "Designed a GenAI-driven log ingestion pipeline that auto-generates Grok patterns and log schemas from raw logs, eliminating manual parsing and accelerating onboarding of new log sources.",
+        "Implemented a Natural Language to SQL querying system using LLMs, enabling users to query logs conversationally, supported by automated log table profiling and schema generation workflows for accurate query translation."
       ]
     },
     {
@@ -45,10 +45,10 @@
       "duration": "Jan 2025 – June 2025",
       "location": "Bengaluru, India",
       "responsibilities": [
-        "Developed a Natural Language to SQL conversion system using Large Language Models (LLMs) (Claude 3.5 Sonnet, Gemini 2.0 Flash), creating query systems with automated database profiling and schema generation to enhance customer experience.",
-        "Built a Go-based code evaluation service integrated with SonarQube, analyzing 100% of the codebase for vulnerabilities on every merge request, reducing production bugs by 25% and incorporating automated rollbacks triggered by Grafana alerts.",
-        "Developed a cloud-based monitoring service using Spring Boot to track hourly creation of SST files (trending content and creator metadata) in the JOSH app and trigger alerts in Google Chat.",
-        "Deployed Airflow DAGs in Google Cloud Composer to run PySpark jobs, comparing training and prediction data of JOSH recommendations in real-time, with daily logging and chat-based discrepancy alerts to ensure system reliability."
+        "Developed a Go-based code evaluation webhook integrated with SonarQube, on every merge request and reducing production defects by 25%.",
+        "Built an HNSW-based recommendation pipeline serving ~12% of feed traffic on the JOSH app, improving content discovery at production scale.",
+        "Created a daily ETL validation pipeline} comparing training vs prediction datasets and publishing discrepancy alerts, improving ML data reliability and monitoring.",
+        "Implemented a cloud monitoring service for GCP buckets to track SST file generation and trigger real-time alerts on missing files, preventing downstream data failures."
       ]
     }
   ],
@@ -103,22 +103,30 @@
   ],
   "achievements": [
     "Secured All India Rank of 1517 in GATE CSE 2023",
-    "Solved over 700+ coding problems across various platforms: LeetCode, Codeforces, CodeChef, Coding Ninjas, and GeeksForGeeks"
+    "Solved over 600+ coding problems across various platforms: LeetCode, Codeforces, CodeChef, Coding Ninjas, and GeeksForGeeks"
   ],
   "skills": {
-    "languages": ["Java", "Python", "C", "C++", "Golang", "JavaScript"],
+    "languages": ["Java", "C++", "Python", "Go", "JavaScript", "SQL"],
     "frameworks": [
       "Spring Boot",
       "FastAPI",
       "React.js",
       "Kafka",
       "Vertex AI",
+      "LangChain",
+      "Generative AI(LLMs)",
       "Redis",
+      "RabbitMQ",
+      "Airflow",
+      "SSE",
+      "HTML5",
+      "CSS3",
+      "Tailwind CSS",
       "Git",
       "GitHub",
       "GitLab"
     ],
-    "databases": ["MySQL", "NoSQL", "PostgreSQL"],
+    "databases": ["MySQL", "MongoDB", "PostgreSQL"],
     "tools": [
       "Jenkins",
       "Docker",
@@ -126,16 +134,17 @@
       "Ansible",
       "Argo CD",
       "SonarQube",
-      "Google Cloud Platform(GCP)"
+      "Google Cloud Platform(GCP)",
+      "Grafana"
     ]
   },
   "codingProfiles": [
     {
       "platform": "LeetCode",
-      "username": "Zanzad_shubham",
-      "url": "https://leetcode.com/Zanzad_shubham",
-      "problemsSolved": 378,
-      "rating": null
+      "username": "shubhamzanzad",
+      "url": "https://leetcode.com/u/shubhamzanzad/",
+      "problemsSolved": 209,
+      "rating": "Knight - 1944"
     },
     {
       "platform": "CodeForces",
@@ -149,7 +158,7 @@
       "username": "zanzadshubham",
       "url": "https://www.codechef.com/users/zanzadshubham",
       "problemsSolved": 29,
-      "rating": "1 star - 1340"
+      "rating": "2 star - 1576"
     },
     {
       "platform": "Coding Ninjas",
