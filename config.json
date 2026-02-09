@@ -116,6 +116,14 @@
       "FastAPI",
       "React.js",
       "Kafka",
+      "Authentication & Authorization",
+      "RBAC", 
+      "JWT", 
+      "OAuth", 
+      "Session Management", 
+      "Secure Cookies", 
+      "API Security",
+      "IAM Frameworks",
       "Vertex AI",
       "LangChain",
       "Generative AI(LLMs)",
@@ -128,7 +136,10 @@
       "Tailwind CSS",
       "Git",
       "GitHub",
-      "GitLab"
+      "GitLab",
+      "gRPC", 
+      "GraphQL", 
+      "REST APIs"
     ],
     "databases": ["MySQL", "MongoDB", "PostgreSQL"],
     "tools": [
