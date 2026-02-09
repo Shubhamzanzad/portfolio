@@ -36,7 +36,10 @@
         "Built and maintained distributed full-stack systems using FastAPI, Kafka, MySQL, React, Tailwind, and Fuse, delivering end-to-end features, fixing production bugs, and translating user requirements into scalable services.",
         "Reduced API latency by ~30–35% by refactoring slow code paths, introducing in-memory caching, and optimizing SQL schemas and queries, improving throughput for high-volume log queries.",
         "Designed a GenAI-driven log ingestion pipeline that auto-generates Grok patterns and log schemas from raw logs, eliminating manual parsing and accelerating onboarding of new log sources.",
-        "Implemented a Natural Language to SQL querying system using LLMs, enabling users to query logs conversationally, supported by automated log table profiling and schema generation workflows for accurate query translation."
+        "Implemented a Natural Language to SQL querying system using LLMs, enabling users to query logs conversationally, supported by automated log table profiling and schema generation workflows for accurate query translation.",
+        "Implemented JWT-based authentication with secure cookie-based session management, and enforced dynamic role-based access control (RBAC) across UI pages and log data access.",
+        "Built an administrative audit dashboard to track and monitor access to sensitive PII data, strengthening security visibility and compliance.",
+        "Collaborated with cross-functional teams to identify, debug, and resolve production security and access issues using logs, metrics, and monitoring dashboards."
       ]
     },
     {
@@ -46,6 +49,7 @@
       "location": "Bengaluru, India",
       "responsibilities": [
         "Developed a Go-based code evaluation webhook integrated with SonarQube, on every merge request and reducing production defects by 25%.",
+        "Designed and implemented an automated deployment rollback system triggered by Grafana alerts, enabling rapid failure recovery and reducing downtime and production incidents by 25%.",
         "Built an HNSW-based recommendation pipeline serving ~12% of feed traffic on the JOSH app, improving content discovery at production scale.",
         "Created a daily ETL validation pipeline} comparing training vs prediction datasets and publishing discrepancy alerts, improving ML data reliability and monitoring.",
         "Implemented a cloud monitoring service for GCP buckets to track SST file generation and trigger real-time alerts on missing files, preventing downstream data failures."
